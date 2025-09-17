@@ -18,7 +18,7 @@ const HomePage: React.FC<HomePageProps> = ({
 }) => {
   return (
     <div>
-      <HeroSection />
+      <HeroSection onCategoryClick={onCategoryClick} />
       <CategorySection onCategoryClick={onCategoryClick} />
       <FeaturedSection
         onProductClick={onProductClick}
